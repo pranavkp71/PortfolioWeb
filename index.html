@@ -31,10 +31,34 @@
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets//profile_img.png" alt="Pranav K P profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Pranav K P</h1>
+            <p class="section__text__p2">Fullstack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/PRANAV_K_P.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/pranav-k-p-0048ba278/'">
+                <img src="./assets/github.png" alt="My Github profile"
+                class="icon" onclick="location.href='https://github.com/pranavkp71'">
+            </div>
+        </div>
+    </section>
    <script src="script.js"></script> 
 </body>
 </html>
